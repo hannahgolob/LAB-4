@@ -1,0 +1,33 @@
+<!doctype html>
+<!-- help.html Exercise 4.3                                 Hannah Golob -->
+<!-- Web page that displays a help message when a button is clicked. -->
+<!-- using innerHTLML attribute. -->
+<!-- =============================================================== -->
+
+<html>
+ <head>
+   <title>Click for Help</title>
+ </head>
+
+ <body>
+   <p>
+     Contents of the page.
+   </p>
+  
+   <input type="button" value="Click for help"
+          onclick="document.getElementById('outputDiv').innerHTML=
+                     'If you have any trouble with this site, ' +
+                     'contact <i>hannah.golob@vanguard.edu</i>.';">
+    <input type="button" value="Clear Help" 
+          onclick="document.getElementById('outputDiv').innerHTML=
+                      'Welcome to my Site!'";>
+   <hr>
+   <div id="outputDiv">
+     Welcome to my site! 
+   </div>
+ </body>
+</html>
+
+
+
+

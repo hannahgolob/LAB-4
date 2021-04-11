@@ -1,0 +1,25 @@
+<!doctype html>
+<!-- help.html                       Hannah Golob -->
+<!-- Exercise 4.4 -->
+<!-- =============================================== -->
+
+<html>
+ <title>GET HELP</title> 
+
+ <body>
+   <p> Hover over the image for help </p>
+ <hr>
+  <table> 
+   <tr>
+     <td> <img src="./imagesLAB4/help.jpg" alt="help sign" 
+          onmouseover="document.getElementById('outputDiv').innerHTML=
+              'If you have any trouble with this site, contact <i>hannah.golob@vanguard.edu</i>';"           
+          onmouseout="document.getElementById('outputDiv').innerHTML=
+              '';">
+  
+    </td> 
+   </tr>
+  </table>
+  <div id="outputDiv"> </div>
+ </body> 
+</html>
